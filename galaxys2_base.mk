@@ -177,9 +177,9 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mass_storage
 
-$(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
+# $(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk) erol
 
 # Include exynos4 platform specific parts
 TARGET_HAL_PATH := hardware/samsung/exynos4/hal
 TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
-$(call inherit-product, hardware/samsung/exynos4210.mk)
+# $(call inherit-product, hardware/samsung/exynos4210.mk) erol
