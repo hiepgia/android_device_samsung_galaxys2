@@ -521,7 +521,7 @@ int camera_device_open(const hw_module_t* module, const char* name,
             ALOGE("vendor camera open fail");
             goto fail;
         }
-        LOGV("%s: got vendor camera device 0x%08X", __FUNCTION__, (uintptr_t)(camera_device->vendor));
+        ALOGV("%s: got vendor camera device 0x%08X", __FUNCTION__, (uintptr_t)(camera_device->vendor));
 
         camera_ops = (camera_device_ops_t*)malloc(sizeof(*camera_ops));
         if(!camera_ops)
@@ -583,7 +583,7 @@ fail:
 
 int camera_get_number_of_cameras(void)
 {
-    LOGV("%s", __FUNCTION__);
+    ALOGV("%s", __FUNCTION__);
     if (check_vendor_module())
         return 0;
     return gVendorModule->get_number_of_cameras();
@@ -591,7 +591,7 @@ int camera_get_number_of_cameras(void)
 
 int camera_get_camera_info(int camera_id, struct camera_info *info)
 {
-    LOGV("%s", __FUNCTION__);
+    ALOGV("%s", __FUNCTION__);
     if (check_vendor_module())
         return 0;
     return gVendorModule->get_camera_info(camera_id, info);
