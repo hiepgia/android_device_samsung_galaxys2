@@ -76,7 +76,7 @@ ENABLE_WEBGL := true
 
 # HWComposer
 BOARD_USES_HWCOMPOSER := false
-BOARD_USE_SECTVOUT := true
+BOARD_USE_SECTVOUT := false
 BOARD_USES_FIMGAPI := true
 
 # OMX
