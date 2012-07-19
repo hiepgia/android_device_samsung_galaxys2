@@ -68,8 +68,8 @@ PRODUCT_PACKAGES := \
     camera.exynos4 \
     com.android.future.usb.accessory \
     GalaxyS2Settings \
-    SamsungServiceMode
-#    Torch \
+    SamsungServiceMode \ 
+    Torch
 #    TvOut \
 #    TvOutHack
 
