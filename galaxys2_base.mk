@@ -74,11 +74,11 @@ PRODUCT_PACKAGES := \
 #    TvOutHack
 
 # HAL
-# PRODUCT_PACKAGES += \
-#    lights.exynos4 \
-#    libhwconverter \
-#    libs5pjpeg \
-#    libfimg
+PRODUCT_PACKAGES += \
+    lights.exynos4 \
+    libhwconverter \
+    libs5pjpeg \
+    libfimg
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -90,23 +90,23 @@ PRODUCT_PACKAGES += \
     libsecmfcapi
 
 # OMX
-#PRODUCT_PACKAGES += \
-#    libstagefrighthw \
-#    libseccscapi \
-#    libsecbasecomponent \
-#    libsecosal \
-#    libSEC_OMX_Resourcemanager \
-#    libSEC_OMX_Core \
-#    libSEC_OMX_Vdec \
-#    libOMX.SEC.AVC.Decoder \
-#    libOMX.SEC.M4V.Decoder \
-#    libOMX.SEC.WMV.Decoder \
-#    libOMX.SEC.VP8.Decoder \
-#    libSEC_OMX_Venc \
-#    libOMX.SEC.AVC.Encoder \
-#    libOMX.SEC.M4V.Encoder \
-#    libSEC_OMX_Adec \
-#    libOMX.SEC.MP3.Decoder
+PRODUCT_PACKAGES += \
+    libstagefrighthw \
+    libseccscapi \
+    libsecbasecomponent \
+    libsecosal \
+    libSEC_OMX_Resourcemanager \
+    libSEC_OMX_Core \
+    libSEC_OMX_Vdec \
+    libOMX.SEC.AVC.Decoder \
+    libOMX.SEC.M4V.Decoder \
+    libOMX.SEC.WMV.Decoder \
+    libOMX.SEC.VP8.Decoder \
+    libSEC_OMX_Venc \
+    libOMX.SEC.AVC.Encoder \
+    libOMX.SEC.M4V.Encoder \
+    libSEC_OMX_Adec \
+    libOMX.SEC.MP3.Decoder
 
 PRODUCT_COPY_FILES += \
 	device/samsung/galaxys2/configs/media_profiles.xml:system/etc/media_profiles.xml
