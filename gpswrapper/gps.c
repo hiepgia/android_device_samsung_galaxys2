@@ -121,7 +121,7 @@ static const void* wrapper_get_extension(const char* name)
         newAGPSRIL.set_ref_location = oldAGPSRIL->set_ref_location;
         newAGPSRIL.set_set_id = oldAGPSRIL->set_set_id;
         newAGPSRIL.ni_message = oldAGPSRIL->ni_message;
-        LOGV("%s setting update_network_state_wrapper", __func__);
+        ALOGV("%s setting update_network_state_wrapper", __func__);
         newAGPSRIL.update_network_state = update_network_state_wrapper;
         return &newAGPSRIL;
     }
@@ -144,10 +144,10 @@ const GpsInterface* gps_get_gps_interface(struct gps_device_t* dev)
         struct gps_device_t  *gps_device;
         err = module->methods->open(module, GPS_HARDWARE_MODULE_ID, &device);
         if (err == 0) {
-            LOGV("%s got gps device", __func__);
+            ALOGV("%s got gps device", __func__);
             gps_device = (struct gps_device_t *)device;            
             originalGpsInterface = gps_device->get_gps_interface(gps_device);            
-            LOGV("%s  device set", __func__);
+            ALOGV("%s  device set", __func__);
         }
     }    
 
