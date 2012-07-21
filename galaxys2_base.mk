@@ -77,7 +77,7 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     lights.exynos4 \
     sensors.exynos4 \
-#    libhwconverter \
+    libhwconverter \
     libs5pjpeg \
     libfimg
 
@@ -92,10 +92,10 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-#    libstagefrighthw \
-#    libseccscapi \
-#    libsecbasecomponent \
-#    libsecosal \
+    libstagefrighthw \
+    libseccscapi \
+    libsecbasecomponent \
+    libsecosal \
     libSEC_OMX_Resourcemanager \
     libSEC_OMX_Core \
     libSEC_OMX_Vdec \
