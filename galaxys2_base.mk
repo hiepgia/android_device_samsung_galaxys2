@@ -93,8 +93,8 @@ PRODUCT_PACKAGES += \
 # OMX
 PRODUCT_PACKAGES += \
 #    libstagefrighthw \
-    libseccscapi \
-    libsecbasecomponent \
+#    libseccscapi \
+#    libsecbasecomponent \
 #    libsecosal \
     libSEC_OMX_Resourcemanager \
     libSEC_OMX_Core \
