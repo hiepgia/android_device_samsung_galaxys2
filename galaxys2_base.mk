@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libseccscapi \
     libsecbasecomponent \
-    libsecosal \
+#    libsecosal \
     libSEC_OMX_Resourcemanager \
     libSEC_OMX_Core \
     libSEC_OMX_Vdec \
