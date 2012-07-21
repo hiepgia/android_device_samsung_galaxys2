@@ -74,12 +74,12 @@ PRODUCT_PACKAGES := \
 #    TvOutHack
 
 # HAL
-PRODUCT_PACKAGES += \
-    lights.exynos4 \
-    sensors.exynos4 \
-    libhwconverter \
-    libs5pjpeg \
-    libfimg
+#PRODUCT_PACKAGES += \
+#    lights.exynos4 \
+#    sensors.exynos4 \
+#    libhwconverter \
+#    libs5pjpeg \
+#    libfimg
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -183,4 +183,4 @@ $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 # Include exynos4 platform specific parts
 TARGET_HAL_PATH := hardware/samsung/exynos4/hal
 TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
-#$(call inherit-product, hardware/samsung/exynos4210.mk)
+$(call inherit-product, hardware/samsung/exynos4210.mk)
