@@ -77,7 +77,7 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     lights.exynos4 \
     sensors.exynos4 \
-    libhwconverter \
+#    libhwconverter \
     libs5pjpeg \
     libfimg
 
