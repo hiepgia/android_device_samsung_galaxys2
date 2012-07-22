@@ -64,22 +64,22 @@ PRODUCT_COPY_FILES += \
 # Packages
 PRODUCT_PACKAGES := \
     audio.a2dp.default \
-    Camera \
+#    Camera \
 #    camera.exynos4 \
     com.android.future.usb.accessory \
     GalaxyS2Settings \
-    SamsungServiceMode \
+#    SamsungServiceMode \
     Torch
 #    TvOut \
 #    TvOutHack
 
 # HAL
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
 #    lights.exynos4 \
 #    sensors.exynos4 \
-    libhwconverter \
-    libs5pjpeg \
-    libfimg
+#    libhwconverter \
+#    libs5pjpeg \
+#    libfimg
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -91,7 +91,7 @@ PRODUCT_PACKAGES += \
     libsecmfcapi
 
 # OMX
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     libstagefrighthw \
     libseccscapi \
     libsecbasecomponent \
