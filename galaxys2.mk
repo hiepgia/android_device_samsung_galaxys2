@@ -15,7 +15,7 @@
 #
 ifeq ($(TARGET_PREBUILT_KERNEL),)
     LOCAL_KERNEL := device/asus/grouper/kernel
-alse
+else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
