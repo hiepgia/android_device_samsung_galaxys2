@@ -65,7 +65,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES := \
     audio.a2dp.default \
     Camera \
-    camera.exynos4 \
+#    camera.exynos4 \
     com.android.future.usb.accessory \
     GalaxyS2Settings \
     SamsungServiceMode \
