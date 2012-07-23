@@ -1,7 +1,7 @@
 [
     {
-        "repository": "android_kernel_samsung_smdk4210",
-        "target_path": "kernel/samsung/smdk4210"
+        "repository": "siyahkernel3",
+        "target_path": "kernel/siyahkernel3"
     },
     {
         "repository": "android_packages_apps_SamsungServiceMode",
