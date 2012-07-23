@@ -1,7 +1,7 @@
 [
     {
         "repository": "siyahkernel3",
-        "target_path": "kernel/siyahkernel3"
+        "target_path": "gokhanmoral/siyahkernel3"
     },
     {
         "repository": "android_packages_apps_SamsungServiceMode",
