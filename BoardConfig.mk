@@ -56,7 +56,7 @@ BOARD_KERNEL_CMDLINE := console=ttySAC2,115200 consoleblank=0
 # TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
 # TARGET_KERNEL_CONFIG := cyanogenmod_galaxys2_defconfig
 #Test with siyah kernel ( Teşekkür Ederiz - Gokhan Moral)
-TARGET_KERNEL_SOURCE := kernel/siyahkernel3
+TARGET_KERNEL_SOURCE := gokhanmoral/siyahkernel3
 TARGET_KERNEL_CONFIG := siyah_defconfig
 
 # Filesystem
