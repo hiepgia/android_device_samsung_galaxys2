@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
 # Packages
 PRODUCT_PACKAGES := \
     audio.a2dp.default \
-    Camera \
+#    Camera \
 #    camera.exynos4 \
     com.android.future.usb.accessory \
     GalaxyS2Settings \
